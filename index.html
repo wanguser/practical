@@ -1,0 +1,367 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Practical</title>
+<style type="text/css">
+body,h1,h2,h3,h4,h5,h6,p,ul,li,ol{margin:0;padding:0;}
+ul{list-style:none;}
+a{text-decoration:none;}
+body{
+	background-color:#eeeeee;
+	}
+.top{
+	background-color:#555555;
+	}
+.top_inner{
+	width:1400px;
+	height:50px;
+	margin:0 auto;
+	}
+.top_inner p{
+	color:#fff;
+	float:left;
+	line-height:50px;                                        
+	}
+.top_inner .top_icon{
+	float:right;
+	font-size:0;
+	}
+/*	
+.top_inner .top_icon img{
+	float:left;
+	}*/
+.header{
+	width:1400px;
+	height:152px;
+	margin:0 auto;
+	}
+.header .logo{
+	float:left;
+	padding-top:40px;
+	}
+.header .nav{
+	float:right;
+	padding-top:40px;
+	}
+.header .nav .home{
+	width:64px;
+	height:64px;
+	background:#fe5d02 url(images/nav_icon_03.jpg) no-repeat center;
+	float:left;
+	}
+.header .nav ul{
+	padding-left:32px;
+	float:left;
+	background-color:#fff;
+	margin-top:2px;
+	}
+.header .nav li{
+	line-height:60px;
+	padding-right:32px;
+	padding-left:25px;
+	float:left;
+	background-repeat:no-repeat;
+	background-position:left center;
+	}
+.header .nav .pages{
+	background-image:url(images/nav_icon_06.jpg);
+	}
+.header .nav .por{
+	background-image:url(images/nav_icon_08.jpg);
+	}
+.header .nav .fea{
+	background-image:url(images/nav_icon_10.jpg);
+	}
+.header .nav .blog{
+	background-image:url(images/nav_icon_13.jpg);
+}
+.header .nav .con{
+	background-image:url(images/nav_icon_16.jpg);
+}
+.header .nav a{
+	color:#6e7b72;
+	}
+.header .nav .more{
+	background:url(images/nav_icon_19.jpg) no-repeat right center;
+	padding-right:18px;
+	}
+.banner{
+	width:1400px;
+	margin:0 auto;
+	}
+.callout{
+	width:1400px;
+	height:213px;
+	margin:0 auto;
+	background-color:#fff;
+	text-align:center;
+	border-top:4px solid #fd5c02;
+	margin-top:40px;
+	background-image:url(images/xsj_22.jpg);
+	background-repeat:no-repeat;
+	background-position:top center;
+	}
+.callout h3{
+	color:#fd5c02;
+	text-transform:uppercase;
+	font-size:16px;
+	line-height:50px;
+	padding-top:17px;
+	}
+.callout p{
+	color:#565656;
+	font-size:14px;
+	line-height:21px;
+	margin-bottom:19px;
+	
+	}
+.callout .btn{
+	width:125px;
+	height:42px;
+	background-color:#fd5c02;
+	margin:0 auto;
+	color:#fff;
+	font-weight:bold;
+	line-height:42px;
+	}
+/*新闻区域*/
+.news{
+	width:1400px;
+	height:263px;
+	margin:0 auto;
+	padding-top:40px;
+	text-align:center;
+	}
+.news .news_left{
+	background-color:#fff;
+	height:263px;
+	width:440px;
+	background-image:url(images/news_icon_03.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	}
+.news .mid{
+	margin:0 40px;
+	background-image:url(images/news_icon_05.jpg);
+	}
+.news .last{
+	background-image:url(images/news_icon_07.jpg);
+	}
+.news h4{
+	line-height:56px;
+	padding-top:22px;
+	font-size:16px;
+	color:#565658;
+	font-family:arial;
+	background-image:url(images/news_icon_13.jpg);
+	background-position:center bottom;
+	background-repeat:no-repeat;
+	}
+.news p{
+	line-height:21px;
+	padding-top:22px;
+	font-size:14px;
+	color:#4b536a;
+	padding:22px 26px 0;
+	}
+.latest{
+	width:1400px;
+	margin:0 auto;
+	line-height:50px;
+	margin-top:40px;
+	}
+.latest h2{
+	font-size:16px;
+	height:50;
+	color:#525657;
+	padding-left:20px;
+	background-color:#fff;
+	background-image:url(images/latest_bg_17.jpg);
+	background-repeat:no-repeat;
+	background-position:right top;
+	}
+.imgs{
+	padding-top:20px;
+	}
+.img_list{
+	height:250px;
+	padding-bottom:40px;
+	}
+.img_list .left{
+	width:320px;
+	height:250px;
+	float:left;
+	margin-right:40px;
+	}
+.img_list .last{
+	margin-right:0;
+	}
+.img_list p{
+	line-height:60px;
+	text-align:center;
+	background-color:#fff;
+	color:#fe582e;
+	font-size:14px;
+	font-family:arial;
+	font-weight:bold;
+	}
+/*底部*/
+.footer{
+	margin-top:80px;
+	background-color:#555555;
+	height:553px;
+	}
+.footer .footer_inner{
+	width:1400px;
+	margin:0 auto;
+	}
+.footer .left{
+	width:480px;
+	float:left;
+	}
+.footer .right{
+	width:440px;
+	float:left;
+	}
+.footer h3{
+	line-height:47px;
+	width:60px;
+	height:47px;
+	border-bottom:1px solid #787878;
+	font-size:14px;
+	color:#fff;
+	font-family:arial;
+	}
+.footer ul{
+	padding-top:13px;
+	}
+.footer ul li{
+	color:#fff;
+	font-size:14px;
+	font-family:arial;
+	font-weight:bold;
+	line-height:31px;
+	background-image:url(images/xsj_40.jpg);
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left:12px;
+	}
+</style>
+</head>
+
+<body>
+<!--顶部区域-->
+<div class="top">
+	<div class="top_inner">
+    	<p>E-mail:mail@yoursite.com | Mobile:123 456 789</p>
+        <div class="top_icon">
+        <img src="images/top_icon_02.jpg" />
+        <img src="images/top_icon_03.jpg" />
+        <img src="images/top_icon_04.jpg" />
+        <img src="images/top_icon_05.jpg" />
+        <img src="images/top_icon_06.jpg" />
+        <img src="images/top_icon_07.jpg" />
+        </div>
+    </div>
+</div>
+<!--头部区域-->
+<div class="header">
+	<div class="logo"><img src="images/pic_14.jpg" /></div>
+    <div class="nav">
+    	<div class="home"></div>
+        <ul>
+        	<li class="pages"><a href="#" class="more">pages</a></li>
+            <li class="por"><a href="#" class="more">portfolios</a></li>
+            <li class="fea"><a href="#" class="more">features</a></li>
+            <li class="blog"><a href="#">blog</a></li>
+            <li class="con"><a href="#">contact</a></li>
+        </ul>
+    </div>
+</div>
+<!--banner区域 -->
+<div class="banner">
+	<img src="images/pic_19.jpg" />
+</div>
+<!--callout区域-->
+<div class="callout">
+	<h3>this is title for callout box</h3>
+    <p>if you are looking for unique multitask wordpress theme with custom grid that is builded for mobile devices,laptops and desktop computers you're in the right place. 1440px grid gives your opportunity to bulid your site make it stand out from the crowd.</p>
+    <div class="btn">READ MORE</div>
+</div>
+<!--新闻区域-->
+<div class="news">
+	<div class="news_left">
+    	<h4>FRESH DESIGN</h4>
+        <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae gravida sodales ligula at congue.cras at congue quam. Pellentesque auctor mauris eutellus dapibus varius.Phasellus ornare massa id dui convallis quis malesuada nibh posuere.</p>
+    </div>
+    <div class="news_left mid">
+    	<h4>FRESH DESIGN</h4>
+        <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae gravida sodales ligula at congue.cras at congue quam. Pellentesque auctor mauris eutellus dapibus varius.Phasellus ornare massa id dui convallis quis malesuada nibh posuere.</p>
+    </div>
+    <div class="news_left last">
+    	<h4>FRESH DESIGN</h4>
+        <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae gravida sodales ligula at congue.cras at congue quam. Pellentesque auctor mauris eutellus dapibus varius.Phasellus ornare massa id dui convallis quis malesuada nibh posuere.</p>
+    </div>
+</div>
+<!--LATEST区域-->
+<div class="latest">
+	<h2>LATEST PROJECTS</h2>
+    <div class="imgs">
+        <div class="img_list">
+            <div class="left">
+                <img src="images/img_20.jpg" />
+                <p>WE LIKE SWEETS</p>
+            </div>
+            <div class="left">
+                <img src="images/img_22.jpg" />
+                <p>SIMPLE AWESOME</p>
+            </div>
+            <div class="left">
+                <img src="images/img_24.jpg" />
+                <p>BUCK BUNNY</p>
+            </div>
+            <div class="left last">
+                <img src="images/img_20.jpg" />
+                <p>JUST ANOTHER ONE</p>
+            </div>
+        </div>
+        <div class="img_list">
+            <div class="left">
+                <img src="images/img_34.jpg" />
+                <p>PREETIFY</p>
+            </div>
+            <div class="left">
+                <img src="images/img_32.jpg" />
+                <p>MIAOW-BUBBLE</p>
+            </div>
+            <div class="left">
+                <img src="images/img_33.jpg" />
+                <p>BIG BUCK BUNNY</p>
+            </div>
+            <div class="left last">
+                <img src="images/img_20.jpg" />
+                <p>GREENY GREEN</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--底部区域-->
+<div class="footer">
+	<div class="footer_inner">
+    	<div class="left">1</div>
+        <div class="left">2</div>
+        <div class="right">
+        	<h3>META</h3>
+            <ul>
+            	<li>Site Admin</li>
+                <li>Log out</li>
+                <li>Entries RSS</li>
+                <li>Comments RSS</li>
+                <li>WordPress.org</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
